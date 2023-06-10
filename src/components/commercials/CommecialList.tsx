@@ -102,13 +102,7 @@ export const CommercialList = () => {
                 
 
               </CardContent>
-              <CardActions >
-                
-                <Link to={`/gastronomias/`} style={styles.button}>Asistir</Link>
-                
-            
-                
-              </CardActions>
+             
               
             </Card>
 
