@@ -9,6 +9,7 @@ import { HomePage } from "./pages/HomePage";
 import { GastronomiesPage } from "./pages/GastronomiesPage";
 import { CommercialsPage } from "./pages/CommercialsPage";
 import { SportsPage } from "./pages/SportsPage";
+import { MusicsPage } from "./pages/MusicsPage";
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
         <Route path="gastronomias" element={<GastronomiesPage />} />
         <Route path="comerciales" element={<CommercialsPage />} />
         <Route path="deportes" element={<SportsPage  />} />
+        <Route path="musicas" element={<MusicsPage />} />
     </Routes>
       
     </>
