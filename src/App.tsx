@@ -6,10 +6,6 @@ import '@fontsource/roboto/700.css';
 import { CssBaseline } from "@mui/material";
 import { Route, Routes } from "react-router-dom";
 import { HomePage } from "./pages/HomePage";
-import { GastronomiesPage } from "./pages/GastronomiesPage";
-import { CommercialsPage } from "./pages/CommercialsPage";
-import { SportsPage } from "./pages/SportsPage";
-import { MusicsPage } from "./pages/MusicsPage";
 
 function App() {
   
@@ -19,10 +15,10 @@ function App() {
     <Header />
     <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="gastronomias" element={<GastronomiesPage />} />
-        <Route path="comerciales" element={<CommercialsPage />} />
-        <Route path="deportes" element={<SportsPage  />} />
-        <Route path="musicas" element={<MusicsPage />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<HomePage  />} />
+        <Route path="/" element={<HomePage />} />
     </Routes>
       
     </>
